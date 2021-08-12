@@ -216,6 +216,16 @@
           }
         },
         {
+          "id": "generated.forgemod:BiblioCraft:1.11.7@jar",
+          "name": "BiblioCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5452316,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/BiblioCraft[v1.11.7][MC1.7.10].jar",
+            "MD5": "ff5aca99f8e04a8bb6077df853a9c72e"
+          }
+        },
+        {
           "id": "generated.forgemod:BiomesOPlenty:2.1.0@jar",
           "name": "Biomes O' Plenty",
           "type": "ForgeMod",
