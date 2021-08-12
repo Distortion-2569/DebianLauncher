@@ -206,16 +206,6 @@
           ]
         },
         {
-          "id": "me.guichaguri.betterfps:betterfps:1.0.1@jar",
-          "name": "BetterFps",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 63223,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/BetterFps-1.0.1.jar",
-            "MD5": "a319779859b31573ac20cd1aa4b06da7"
-          }
-        },
-        {
           "id": "generated.forgemod:BiblioCraft:1.11.7@jar",
           "name": "BiblioCraft",
           "type": "ForgeMod",
@@ -236,46 +226,6 @@
           }
         },
         {
-          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.7.47-universal@jar",
-          "name": "CodeChickenCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 145782,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
-            "MD5": "07690caf86ecf79739852154f5e44750"
-          }
-        },
-        {
-          "id": "generated.forgemod:FTBL:1.7.10-1.0.18.2@jar",
-          "name": "FTBLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 667443,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/FTBLib-1.7.10-1.0.18.3.jar",
-            "MD5": "1753db050335f5725d1ea9e09b8f102b"
-          }
-        },
-        {
-          "id": "generated.forgemod:FTBT:1.0.2@jar",
-          "name": "FTB Tweaks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3141,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/FTBTweaks-1.0.2.jar",
-            "MD5": "2ce7284f680e415b84c516084c30902b"
-          }
-        },
-        {
-          "id": "generated.forgemod:FTBU:1.7.10-1.0.18.2@jar",
-          "name": "FTBUtilities",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 315302,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/FTBUtilities-1.7.10-1.0.18.3.jar",
-            "MD5": "d7611c7ea40480c17a6a5fd164dd21a8"
-          }
-        },
-        {
           "id": "generated.forgemod:ironchest:1.7.10-6.0.53.736-universal@jar",
           "name": "Ironchest",
           "type": "ForgeMod",
@@ -293,46 +243,6 @@
             "size": 202458,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/Mantle-1.7.10-0.3.2b.jar",
             "MD5": "934fe4ef7a9b971f22b5dd53e57fa976"
-          }
-        },
-        {
-          "id": "generated.forgemod:NEIAddons:1.12.14.40@jar",
-          "name": "NEI Addons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 101777,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/neiaddons-1.12.14.40-mc1.7.10.jar",
-            "MD5": "cd23917348ec450f022c13c24f196374"
-          }
-        },
-        {
-          "id": "generated.forgemod:neiintegration:1.1.2@jar",
-          "name": "NEI Integration",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 197046,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/NEIIntegration-MC1.7.10-1.1.2.jar",
-            "MD5": "54308ef273613b79870e9e46df86e7d9"
-          }
-        },
-        {
-          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.5.120-universal@jar",
-          "name": "NotEnoughItems",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 513136,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
-            "MD5": "742e865a9a80071e80976ffedc05700e"
-          }
-        },
-        {
-          "id": "generated.forgemod:neresources:1.7.10-0.1.0-122@jar",
-          "name": "Not Enough Resources",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 226519,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/NotEnoughResources-1.7.10-0.1.0-122.jar",
-            "MD5": "dd1ce8f0d608791c62abc7c824019843"
           }
         },
         {
