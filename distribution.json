@@ -226,13 +226,13 @@
           }
         },
         {
-          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.7.47-universal@jar",
+          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.7.48-universal@jar",
           "name": "CodeChickenCore",
           "type": "ForgeMod",
           "artifact": {
-            "size": 145782,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.7.47-universal.jar",
-            "MD5": "07690caf86ecf79739852154f5e44750"
+            "size": 143985,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+            "MD5": "9624db3d835155a1be4baef23b7cee31"
           }
         },
         {
