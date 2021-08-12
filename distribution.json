@@ -8,12 +8,12 @@
   },
   "servers": [
     {
-      "id": "DebianFaction",
-      "name": "DebianFaction",
-      "description": "DebianFaction",
+      "id": "DebianFaction-1.7.10",
+      "name": "DebianFaction (Minecraft 1.7.10)",
+      "description": "DebianFaction Running Minecraft 1.7.10 (Forge v10.13.4.1614)",
       "icon": null,
       "version": "1.0.0",
-      "address": "node-1.aryk.fr:25169",
+      "address": "localhost:25565",
       "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -205,7 +205,24 @@
             }
           ]
         },
-
+        {
+          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.7.48-universal@jar",
+          "name": "CodeChickenCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 143985,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+            "MD5": "9624db3d835155a1be4baef23b7cee31"
+          }
+        },
+        {
+          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.5.120-universal@jar",
+          "name": "NotEnoughItems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 513136,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianFaction-1.7.10/forgemods/required/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+            "MD5": "742e865a9a80071e80976ffedc05700e"
           }
         }
       ]
