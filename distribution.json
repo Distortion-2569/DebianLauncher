@@ -8,13 +8,13 @@
   },
   "servers": [
     {
-      "id": "DebianServeur-1.8.9",
-      "name": "DebianServeur (Minecraft 1.8.9)",
-      "description": "DebianServeur Running Minecraft 1.8.9 (Forge v11.15.1.2318)",
+      "id": "DebianServeur-1.12.2",
+      "name": "DebianServeur (Minecraft 1.12.2)",
+      "description": "DebianServeur Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.8.9",
+      "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -24,15 +24,35 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.8.9-11.15.1.2318-1.8.9:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 3805686,
-            "MD5": "b97a4c5bc653c957663e7b0de17a3c09",
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-universal.jar"
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
           },
           "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
             {
               "id": "net.minecraft:launchwrapper:1.12@jar",
               "name": "Minecraft Forge (launchwrapper)",
@@ -44,23 +64,13 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-all:5.0.3@jar",
-              "name": "Minecraft Forge (asm-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 241639,
-                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
-              }
-            },
-            {
-              "id": "jline:jline:2.13@jar",
+              "id": "org.jline:jline:3.5.1@jar",
               "name": "Minecraft Forge (jline)",
               "type": "Library",
               "artifact": {
-                "size": 248566,
-                "MD5": "f251ba666cccb260ff7215b2cbeee8d4",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/jline/jline/2.13/jline-2.13.jar"
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -104,23 +114,23 @@
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
               "name": "Minecraft Forge (scala-continuations-library_2.11)",
               "type": "Library",
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
               "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
               "type": "Library",
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
               }
             },
             {
@@ -184,16 +194,6 @@
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:4.6@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 62477,
-                "MD5": "13560a58a79b46b82057686543e8d727",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"
-              }
-            },
-            {
               "id": "java3d:vecmath:1.5.2@jar",
               "name": "Minecraft Forge (vecmath)",
               "type": "Library",
@@ -212,17 +212,77 @@
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
                 "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
               }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
             }
           ]
         },
         {
-          "id": "mezz.jei:JEI:2.28.18.187@jar",
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4702147,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal%20(1).jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:chameleon:1.12-4.1.3@jar",
+          "name": "Chameleon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96859,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Chameleon-1.12-4.1.3.jar",
+            "MD5": "e42efa8f4fd42d2918128a826b740e98"
+          }
+        },
+        {
+          "id": "cpw.mods:ironchest:1.12.2-7.0.72.847@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 956692,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ironchest-1.12.2-7.0.72.847.jar",
+            "MD5": "743179bc3a8f50751efbb019acc759a9"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.302@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "artifact": {
-            "size": 294273,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.8.9/forgemods/required/jei_1.8.9-2.28.18.187.jar",
-            "MD5": "20a5f5737db2a3fb93441a53e96e5848"
+            "size": 653210,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/jei_1.12.2-4.16.1.302.jar",
+            "MD5": "2dc4b6046812e64c514ff4d18bc5cb03"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:1.12.2-5.4.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 605947,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/StorageDrawers-1.12.2-5.4.2.jar",
+            "MD5": "0f658c7cba3e6793abbcb934b4810902"
           }
         }
       ]
