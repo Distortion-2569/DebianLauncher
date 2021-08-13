@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "875402570502377512",
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "debian"
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
@@ -20,8 +20,8 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
@@ -261,6 +261,16 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4702147,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4702147,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal%20(1).jar",
             "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
           }
@@ -313,6 +323,46 @@
             "size": 843486,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Mantle-1.12-1.3.3.55.jar",
             "MD5": "1026f5f8d3c4997831decd9023ca65a6"
+          }
+        },
+        {
+          "id": "net.silentchaos512:sgextraparts:1.4.5@jar",
+          "name": "Silent's Gems: Extra Parts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105628,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SGExtraParts-1.12.2-1.4.5-43.jar",
+            "MD5": "c09578e1ccaa7e53dc6aa31477fba170"
+          }
+        },
+        {
+          "id": "net.silentchaos512.gear:silentgear:0.6.7@jar",
+          "name": "Silent Gear",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 900109,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentGear-1.12.2-0.6.7+76.jar",
+            "MD5": "30c882332579389c1a792cfef728a6ee"
+          }
+        },
+        {
+          "id": "net.silentchaos512.lib:SilentLib:3.0.14@jar",
+          "name": "Silent Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 369314,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentLib-1.12.2-3.0.14+168.jar",
+            "MD5": "1e66a91d88c26de3702af1c4f754a5e5"
+          }
+        },
+        {
+          "id": "net.silentchaos512.gems:silentgems:2.8.18@jar",
+          "name": "Silent's Gems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3485752,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentsGems-1.12.2-2.8.22+327.jar",
+            "MD5": "f0d495169719288a9c0ba236275f049c"
           }
         },
         {
