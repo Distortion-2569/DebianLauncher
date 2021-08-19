@@ -8,9 +8,9 @@
   },
   "servers": [
     {
-      "id": "DebianFaction",
-      "name": "DebianFaction",
-      "description": "DebianFaction",
+      "id": "Debian Survival",
+      "name": "Debian Survival",
+      "description": "Debian Survival",
       "icon": null,
       "version": "1.0.0",
       "address": "node-1.aryk.fr:25169",
@@ -20,7 +20,7 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": true,
       "modules": [
         {
@@ -236,6 +236,36 @@
           ]
         },
         {
+          "id": "de.ellpeck.actuallyadditions.mod:actuallyadditions:1.12.2-r152@jar",
+          "name": "Actually Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2958699,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ActuallyAdditions-1.12.2-r152.jar",
+            "MD5": "4bb5c052581c729eb8a6adc60b376ec6"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:rv6-stable-7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4062630,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/appliedenergistics2-rv6-stable-7.jar",
+            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28"
+          }
+        },
+        {
+          "id": "morph.avaritia:Avaritia:3.3.0.37@jar",
+          "name": "Avaritia",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 975727,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Avaritia-1.12.2-3.3.0.37-universal.jar",
+            "MD5": "a4de486714f079db83119039fbe2dfa5"
+          }
+        },
+        {
           "id": "baubles:baubles:1.12-1.5.2@jar",
           "name": "Baubles",
           "type": "ForgeMod",
@@ -243,6 +273,26 @@
             "size": 108450,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettercaves:1.12.2-2.0.3@jar",
+          "name": "YUNG's Better Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 194324,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/bettercaves-1.12.2-2.0.3.jar",
+            "MD5": "d9b6ec2c3a8c4c54f3ba1caf8ddcd757"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.12.2-2.2.1@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 305086,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+            "MD5": "1e7f37157821c872095a45e1379700d0"
           }
         },
         {
@@ -266,13 +316,13 @@
           }
         },
         {
-          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
-          "name": "Biomes O' Plenty",
+          "id": "wayoftime.bloodmagic:bloodmagic:1.12.2-2.4.3-105@jar",
+          "name": "Blood Magic: Alchemical Wizardry",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4702147,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal%20(1).jar",
-            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
+            "size": 7208594,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BloodMagic-1.12.2-2.4.3-105.jar",
+            "MD5": "90f67913247c8cf549836d724efc87fc"
           }
         },
         {
@@ -286,6 +336,26 @@
           }
         },
         {
+          "id": "com.brandon3055:brandonscore:1.12.2-2.4.20.22@jar",
+          "name": "Brandon's Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827900,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+            "MD5": "4a67ccad9d684466010c02164d7ff13e"
+          }
+        },
+        {
+          "id": "buildcraft.compat:buildcraftlib:7.99.24.8@jar",
+          "name": "BuildCraft Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4879732,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/buildcraft-all-7.99.24.8.jar",
+            "MD5": "df73e94d29b8c6bde42c451ff6018761"
+          }
+        },
+        {
           "id": "com.jaquadro.minecraft:chameleon:1.12-4.1.3@jar",
           "name": "Chameleon",
           "type": "ForgeMod",
@@ -293,6 +363,126 @@
             "size": 96859,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Chameleon-1.12-4.1.3.jar",
             "MD5": "e42efa8f4fd42d2918128a826b740e98"
+          }
+        },
+        {
+          "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4755282,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
+            "MD5": "54afc298f94e708f0e1cdf399200b2cb"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
+          "name": "Chisels & Bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 737407,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/chiselsandbits-14.33.jar",
+            "MD5": "e056e23559965f2ebabf47aad0fe51a3"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:3.1.2@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13792,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Clumps-3.1.2.jar",
+            "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704330,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+          }
+        },
+        {
+          "id": "cofh:cofhcore:4.6.6.1@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 848187,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+            "MD5": "f147d3b87f97bb317e1c37cba0dde002"
+          }
+        },
+        {
+          "id": "cofh.cofhworld:cofhworld:1.4.0.1@jar",
+          "name": "CoFH World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 505987,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
+          }
+        },
+        {
+          "id": "com.blakebr0:cucumber:1.1.3@jar",
+          "name": "Cucumber Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126699,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Cucumber-1.12.2-1.1.3.jar",
+            "MD5": "0018d8de31b05dc44c80a25d73fde15b"
+          }
+        },
+        {
+          "id": "com.brandon3055:draconicevolution:1.12.2-2.3.27.353@jar",
+          "name": "Draconic Evolution",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5708541,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar",
+            "MD5": "812fd3a510f59293169849fa69565e6b"
+          }
+        },
+        {
+          "id": "net.olafkeijsers:fastleafdecay:v14@jar",
+          "name": "FastLeafDecay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5200,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
+            "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+          }
+        },
+        {
+          "id": "amerifrance.guideapi:guideapi:1.12-2.1.8-63@jar",
+          "name": "Guide-API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169528,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Guide-API-1.12-2.1.8-63.jar",
+            "MD5": "117d3d825059fceb0c1d04f8701beb00"
+          }
+        },
+        {
+          "id": "ic2.core:ic2:2.8.170-ex112@jar",
+          "name": "IndustrialCraft 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8356436,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
+            "MD5": "d4f952c94cacdd280abbb73f072b2424"
+          }
+        },
+        {
+          "id": "gr8pefish.ironbackpacks:ironbackpacks:1.12.2-3.0.8-12@jar",
+          "name": "Iron Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 465363,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/IronBackpacks-1.12.2-3.0.8-12.jar",
+            "MD5": "9fd50b1827b711704c69789aa94ac2ca"
           }
         },
         {
@@ -306,13 +496,23 @@
           }
         },
         {
-          "id": "mezz.jei:jei:4.16.1.302@jar",
-          "name": "Just Enough Items",
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
           "type": "ForgeMod",
           "artifact": {
-            "size": 653210,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/jei_1.12.2-4.16.1.302.jar",
-            "MD5": "2dc4b6046812e64c514ff4d18bc5cb03"
+            "size": 6990968,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          }
+        },
+        {
+          "id": "mal.lootbags:lootbags:2.5.8.5@jar",
+          "name": "Loot Bags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 279242,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/LootBags-1.12.2-2.5.8.5.jar",
+            "MD5": "251da8ab30737ef321e2ee2c50a3782e"
           }
         },
         {
@@ -326,6 +526,36 @@
           }
         },
         {
+          "id": "com.blakebr0:mysticalagradditions:1.3.2@jar",
+          "name": "Mystical Agradditions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134055,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/MysticalAgradditions-1.12.2-1.3.2.jar",
+            "MD5": "ead0f02e214ab12b4f7b86c79fc23ffa"
+          }
+        },
+        {
+          "id": "com.blakebr0:mysticalagriculture:1.7.3@jar",
+          "name": "Mystical Agriculture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1536124,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/MysticalAgriculture-1.12.2-1.7.5.jar",
+            "MD5": "b7b81747d20baf1c5547ee302bad1420"
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.4-17@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18527,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Neat+1.4-17.jar",
+            "MD5": "c371deab2490ecd6a2689eed09302d23"
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
           "name": "OptiFine 1.12.2_HD_U_G5",
           "type": "ForgeMod",
@@ -333,6 +563,36 @@
             "size": 2669107,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "com.pam:harvestcraft:1.12.2zg@jar",
+          "name": "Pam's HarvestCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4912890,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Pam's+HarvestCraft+1.12.2zg.jar",
+            "MD5": "e8e1ac67accdeea50116e1e92e592397"
+          }
+        },
+        {
+          "id": "cofh.redstoneflux:redstoneflux:2.1.1.1@jar",
+          "name": "Redstone Flux",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31802,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+            "MD5": "93b1715f05be1878da93fca36dd37f2a"
+          }
+        },
+        {
+          "id": "greymerk.roguelike:roguelike:1.12.2-1.8.0@jar",
+          "name": "Roguelike Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 701215,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/RoguelikeDungeons-1.12.2-1.8.0.jar",
+            "MD5": "e6f7604a6ec95d0af6eee2f2f3ecef85"
           }
         },
         {
@@ -346,23 +606,13 @@
           }
         },
         {
-          "id": "net.silentchaos512.gear:silentgear:0.6.7@jar",
-          "name": "Silent Gear",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 900109,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentGear-1.12.2-0.6.7+76.jar",
-            "MD5": "30c882332579389c1a792cfef728a6ee"
-          }
-        },
-        {
-          "id": "net.silentchaos512.lib:SilentLib:3.0.14@jar",
+          "id": "net.silentchaos512.lib:SilentLib:3.0.13@jar",
           "name": "Silent Lib",
           "type": "ForgeMod",
           "artifact": {
-            "size": 369314,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentLib-1.12.2-3.0.14+168.jar",
-            "MD5": "1e66a91d88c26de3702af1c4f754a5e5"
+            "size": 588846,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentLib-1.12.2-3.0.13+167.jar",
+            "MD5": "226e4977e83fec1fd88963ce7a98fb16"
           }
         },
         {
@@ -373,6 +623,16 @@
             "size": 3485752,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentsGems-1.12.2-2.8.22+327.jar",
             "MD5": "f0d495169719288a9c0ba236275f049c"
+          }
+        },
+        {
+          "id": "generated.forgemod:simpletpa:5.5@jar",
+          "name": "SimpleTpa",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52245,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SimpleTpa-5.5.jar",
+            "MD5": "e6d7e6b0893a458ba250f7835740d891"
           }
         },
         {
@@ -393,6 +653,36 @@
             "size": 4023372,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/TConstruct-1.12.2-2.13.0.183.jar",
             "MD5": "710d64342d41042b7d6ced891448e727"
+          }
+        },
+        {
+          "id": "cofh.thermalfoundation:thermalfoundation:2.6.7.1@jar",
+          "name": "Thermal Foundation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2219736,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+            "MD5": "6eca041bbf28949b60ecf1179d561156"
+          }
+        },
+        {
+          "id": "slimeknights.toolleveling:tinkertoolleveling:1.12.2-1.1.0@jar",
+          "name": "Tinkers Tool Leveling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95850,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/TinkerToolLeveling-1.12.2-1.1.0.jar",
+            "MD5": "f9253fe86c6649afbf49d221c71ba19a"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:3.11.1021@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28721862,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/twilightforest-1.12.2-3.11.1021-universal.jar",
+            "MD5": "0933760943721154f3208782306f04d6"
           }
         }
       ]
