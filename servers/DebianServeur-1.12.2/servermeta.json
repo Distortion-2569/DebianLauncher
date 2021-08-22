@@ -2,8 +2,8 @@
   "$schema": "file:///c:/DebianLauncher/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "DebianServeur (Minecraft 1.12.2)",
-    "description": "DebianServeur Running Minecraft 1.12.2 (Forge v14.23.5.2855)",
+    "name": "Exploratia",
+    "description": "Exploratia",
     "address": "localhost:25565",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
