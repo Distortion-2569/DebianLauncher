@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "875402570502377512",
+    "smallImageText": "V1",
+    "smallImageKey": "debian"
   },
   "servers": [
     {
@@ -13,15 +13,15 @@
       "description": "Debian",
       "icon": null,
       "version": "1.0.0",
-      "address": "node-1.aryk.fr:25169",
+      "address": "",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "875402570502377512",
+        "largeImageText": "Connecté sur le serveur",
+        "largeImageKey": "debian"
       },
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
@@ -460,9 +460,9 @@
           "name": "Custom Main Menu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 90223,
+            "size": 90373,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
-            "MD5": "75ccc1d0835e4246218f318f29070393"
+            "MD5": "5e24fc8aa4d54ef7500ebc9055da01dc"
           }
         },
         {
