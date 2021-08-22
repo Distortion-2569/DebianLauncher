@@ -460,9 +460,9 @@
           "name": "Custom Main Menu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 91121,
+            "size": 90223,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/servers/DebianServeur-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
-            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+            "MD5": "75ccc1d0835e4246218f318f29070393"
           }
         },
         {
