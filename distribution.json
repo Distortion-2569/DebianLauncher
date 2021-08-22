@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "875402570502377512",
-    "smallImageText": "V1",
-    "smallImageKey": "debian"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
@@ -16,693 +16,1251 @@
       "address": "node-1.aryk.fr:25169",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "875402570502377512",
-        "largeImageText": "Connecté sur le jeu !",
-        "largeImageKey": "debian"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
+          "id": "generated.library:# LibLoader:0.0.0@jar",
+          "name": "# LibLoader",
+          "type": "Library",
           "artifact": {
-            "size": 4464387,
-            "MD5": "02fcc447bb8938e5214292e4d36ec949",
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2855",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 10873,
-                "MD5": "5d114618e561d76e0f692c2d69dcb784",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "de.ellpeck.actuallyadditions.mod:actuallyadditions:1.12.2-r152@jar",
-          "name": "Actually Additions",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2958699,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ActuallyAdditions-1.12.2-r152.jar",
-            "MD5": "4bb5c052581c729eb8a6adc60b376ec6"
+            "size": 23934,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/#%20LibLoader.jar",
+            "MD5": "dc9c407ac72708942ade074049d97e00"
           }
         },
         {
-          "id": "com.creativemd:ambientsounds:3.0@jar",
-          "name": "AmbientSounds",
-          "type": "ForgeMod",
+          "id": "generated.library:AIReducer:1.12.2-0.1.3@jar",
+          "name": "AIReducer",
+          "type": "Library",
           "artifact": {
-            "size": 76507808,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/AmbientSounds_v3.1.5_mc1.12.2.jar",
-            "MD5": "00e18dcf5bc02157a863c97dc36ac4aa"
+            "size": 40263,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/AIReducer-1.12.2-0.1.3.jar",
+            "MD5": "54fe5af2c8f75958a8c2613529196408"
           }
         },
         {
-          "id": "appeng.core:appliedenergistics2:rv6-stable-7@jar",
-          "name": "Applied Energistics 2",
-          "type": "ForgeMod",
+          "id": "generated.library:AdHooks:1.12.2-3.2.3.0-build.0435@jar",
+          "name": "AdHooks",
+          "type": "Library",
           "artifact": {
-            "size": 4062630,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/appliedenergistics2-rv6-stable-7.jar",
-            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28"
+            "size": 71312,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/AdHooks-1.12.2-3.2.3.0-build.0435.jar",
+            "MD5": "d9f98a622327d4a3b4569c22da7cd9a9"
           }
         },
         {
-          "id": "vazkii.arl:autoreglib:1.3-32@jar",
+          "id": "generated.library:Advanced:Fishing-1.12.2-1.3.3@jar",
+          "name": "Advanced",
+          "type": "Library",
+          "artifact": {
+            "size": 277112,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Advanced-Fishing-1.12.2-1.3.3.jar",
+            "MD5": "45d6f18d0ac8075b0cb65d2bde83ebdd"
+          }
+        },
+        {
+          "id": "generated.library:Aquaculture:1.12.2-1.6.8@jar",
+          "name": "Aquaculture",
+          "type": "Library",
+          "artifact": {
+            "size": 186686,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Aquaculture-1.12.2-1.6.8.jar",
+            "MD5": "168ee7ded8fa21d49700b99e8617c79b"
+          }
+        },
+        {
+          "id": "generated.library:AutoRegLib:1.3-32@jar",
           "name": "AutoRegLib",
-          "type": "ForgeMod",
+          "type": "Library",
           "artifact": {
             "size": 108306,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/AutoRegLib-1.3-32.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/AutoRegLib-1.3-32.jar",
             "MD5": "4e5a4b881c27b1e4502a9a16c00882ad"
           }
         },
         {
-          "id": "morph.avaritia:Avaritia:3.3.0.37@jar",
-          "name": "Avaritia",
-          "type": "ForgeMod",
+          "id": "generated.library:BNBGamingLib:1.12.2-2.17.6@jar",
+          "name": "BNBGamingLib",
+          "type": "Library",
           "artifact": {
-            "size": 975727,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Avaritia-1.12.2-3.3.0.37-universal.jar",
-            "MD5": "a4de486714f079db83119039fbe2dfa5"
+            "size": 132644,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BNBGamingLib-1.12.2-2.17.6.jar",
+            "MD5": "fb9e9974b8c2cb9ee7ca9d29ef72dfbf"
           }
         },
         {
-          "id": "baubles:baubles:1.12-1.5.2@jar",
+          "id": "generated.library:BacoDifficulty:1.0.3@jar",
+          "name": "BacoDifficulty",
+          "type": "Library",
+          "artifact": {
+            "size": 3969,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BacoDifficulty-1.0.3.jar",
+            "MD5": "ceeb7eb07d577bfd7ddebf4aa3416a2c"
+          }
+        },
+        {
+          "id": "generated.library:BattleTowers:1.12.2@jar",
+          "name": "BattleTowers",
+          "type": "Library",
+          "artifact": {
+            "size": 886037,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BattleTowers-1.12.2.jar",
+            "MD5": "394660e0f852ee9650799eae6dfae098"
+          }
+        },
+        {
+          "id": "generated.library:Baubles:1.12-1.5.2@jar",
           "name": "Baubles",
-          "type": "ForgeMod",
+          "type": "Library",
           "artifact": {
             "size": 108450,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:bettercaves:1.12.2-2.0.4@jar",
-          "name": "YUNG's Better Caves",
-          "type": "ForgeMod",
+          "id": "generated.library:BaublesHud:1.12.2-5.0.2@jar",
+          "name": "BaublesHud",
+          "type": "Library",
           "artifact": {
-            "size": 193604,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/bettercaves-1.12.2-2.0.4.jar",
-            "MD5": "ceb9c88ab5f8f3514a28ad7244b81757"
+            "size": 58248,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BaublesHud-1.12.2-5.0.2.jar",
+            "MD5": "43db1f8e39077e17c71d4da5f6fdb9f8"
           }
         },
         {
-          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.12.2-2.2.1@jar",
-          "name": "YUNG's Better Mineshafts",
-          "type": "ForgeMod",
+          "id": "generated.library:BetterCombat:1.12.2-1.5.6@jar",
+          "name": "BetterCombat",
+          "type": "Library",
           "artifact": {
-            "size": 305086,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BetterMineshaftsForge-1.12.2-2.2.1.jar",
-            "MD5": "1e7f37157821c872095a45e1379700d0"
+            "size": 98955,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BetterCombat-1.12.2-1.5.6.jar",
+            "MD5": "0885bc52f6f7bc3830cf56d56a00db7e"
           }
         },
         {
-          "id": "jds.bibliocraft:bibliocraft:2.4.5@jar",
-          "name": "BiblioCraft",
-          "type": "ForgeMod",
+          "id": "generated.library:BetterFoliage:MC1.12-2.2.0@jar",
+          "name": "BetterFoliage",
+          "type": "Library",
           "artifact": {
-            "size": 5122856,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiblioCraft[v2.4.5][MC1.12.2].jar",
-            "MD5": "5b9f1a1543a1fdf687fe4761e3d63ed4"
+            "size": 926081,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BetterFoliage-MC1.12-2.2.0.jar",
+            "MD5": "e05a720c5900b9bac4e01179abe8eef6"
           }
         },
         {
-          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
-          "name": "Biomes O' Plenty",
-          "type": "ForgeMod",
+          "id": "generated.library:BiomesOPlenty:1.12.2-7.0.1.2444-universal@jar",
+          "name": "BiomesOPlenty",
+          "type": "Library",
           "artifact": {
             "size": 4702147,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
             "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
           }
         },
         {
-          "id": "wayoftime.bloodmagic:bloodmagic:1.12.2-2.4.3-105@jar",
-          "name": "Blood Magic: Alchemical Wizardry",
-          "type": "ForgeMod",
+          "id": "generated.library:Bloodmoon:MC1.12.2-1.5.3@jar",
+          "name": "Bloodmoon",
+          "type": "Library",
           "artifact": {
-            "size": 7208594,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BloodMagic-1.12.2-2.4.3-105.jar",
-            "MD5": "90f67913247c8cf549836d724efc87fc"
+            "size": 47505,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Bloodmoon-MC1.12.2-1.5.3.jar",
+            "MD5": "6abdadb259cac735ff85fce91888b9ac"
           }
         },
         {
-          "id": "vazkii.botania:botania:r1.10-364.4@jar",
-          "name": "Botania",
-          "type": "ForgeMod",
+          "id": "generated.library:Born In A Barn V1.8:1.12-1.1@jar",
+          "name": "Born In A Barn V1.8",
+          "type": "Library",
           "artifact": {
-            "size": 13817704,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Botania+r1.10-364.4.jar",
-            "MD5": "7a19779fa19e37cb9fb49a0a1770332b"
+            "size": 3642,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Born%20In%20A%20Barn%20V1.8-1.12-1.1.jar",
+            "MD5": "944a413889537655a8c1165d44e2647f"
           }
         },
         {
-          "id": "com.brandon3055:brandonscore:1.12.2-2.4.20.22@jar",
-          "name": "Brandon's Core",
-          "type": "ForgeMod",
+          "id": "generated.library:Bountiful Baubles:1.12.2-0.1.5@jar",
+          "name": "Bountiful Baubles",
+          "type": "Library",
           "artifact": {
-            "size": 827900,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-            "MD5": "4a67ccad9d684466010c02164d7ff13e"
+            "size": 443029,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Bountiful%20Baubles-1.12.2-0.1.5.jar",
+            "MD5": "c3bbd6b5923ce44d3f004ce0ca796051"
           }
         },
         {
-          "id": "buildcraft.compat:buildcraftlib:7.99.24.8@jar",
-          "name": "BuildCraft Lib",
-          "type": "ForgeMod",
+          "id": "generated.library:CarryOn MC1.12.2 v1.12.3:0.0.0@jar",
+          "name": "CarryOn MC1.12.2 v1.12.3",
+          "type": "Library",
           "artifact": {
-            "size": 4879732,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/buildcraft-all-7.99.24.8.jar",
-            "MD5": "df73e94d29b8c6bde42c451ff6018761"
+            "size": 317135,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CarryOn%20MC1.12.2%20v1.12.3.jar",
+            "MD5": "c026ac8f71ce43553c99a1b49f3c3a06"
           }
         },
         {
-          "id": "com.jaquadro.minecraft:chameleon:1.12-4.1.3@jar",
-          "name": "Chameleon",
-          "type": "ForgeMod",
+          "id": "generated.library:ChunkAnimator:MC1.12-1.2@jar",
+          "name": "ChunkAnimator",
+          "type": "Library",
           "artifact": {
-            "size": 96859,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Chameleon-1.12-4.1.3.jar",
-            "MD5": "e42efa8f4fd42d2918128a826b740e98"
+            "size": 25447,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ChunkAnimator-MC1.12-1.2.jar",
+            "MD5": "47667bc52f07c777263ac5345c6a42ec"
           }
         },
         {
-          "id": "com.blamejared:clumps:3.1.2@jar",
-          "name": "Clumps",
-          "type": "ForgeMod",
+          "id": "generated.library:CompatSkills:1.12.2-1.17.0@jar",
+          "name": "CompatSkills",
+          "type": "Library",
           "artifact": {
-            "size": 13792,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Clumps-3.1.2.jar",
-            "MD5": "e0c4c4f04aeb0e0a48fc7534f9e7d6be"
+            "size": 378621,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CompatSkills-1.12.2-1.17.0.jar",
+            "MD5": "2944bf96254278e54dc0cf946f124703"
           }
         },
         {
-          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
-          "name": "CodeChicken Lib",
-          "type": "ForgeMod",
+          "id": "generated.library:CoralReef:2.5-1.12.2@jar",
+          "name": "CoralReef",
+          "type": "Library",
           "artifact": {
-            "size": 704330,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+            "size": 73465,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CoralReef-2.5-1.12.2.jar",
+            "MD5": "c6eb6d2f4417b231b88a71633f9ea211"
           }
         },
         {
-          "id": "cofh:cofhcore:4.6.6.1@jar",
-          "name": "CoFH Core",
-          "type": "ForgeMod",
+          "id": "generated.library:CraftTweaker2:1.12-4.1.20@jar",
+          "name": "CraftTweaker2",
+          "type": "Library",
           "artifact": {
-            "size": 848187,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CoFHCore-1.12.2-4.6.6.1-universal.jar",
-            "MD5": "f147d3b87f97bb317e1c37cba0dde002"
+            "size": 1363036,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CraftTweaker2-1.12-4.1.20.jar",
+            "MD5": "521297c5e2459dd232a72dacffa45a0b"
           }
         },
         {
-          "id": "cofh.cofhworld:cofhworld:1.4.0.1@jar",
-          "name": "CoFH World",
-          "type": "ForgeMod",
+          "id": "generated.library:CraftableHorseArmour:1.3.0-1.12@jar",
+          "name": "CraftableHorseArmour",
+          "type": "Library",
           "artifact": {
-            "size": 505987,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
+            "size": 3515,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CraftableHorseArmour-1.3.0-1.12.jar",
+            "MD5": "97934c9e192372e0e9dc0b175914dfda"
           }
         },
         {
-          "id": "com.creativemd:creativecore:1.10@jar",
-          "name": "CreativeCore",
-          "type": "ForgeMod",
+          "id": "generated.library:CreativeCore_v1.9.90_mc1.12.2:0.0.0@jar",
+          "name": "CreativeCore_v1.9.90_mc1.12.2",
+          "type": "Library",
           "artifact": {
-            "size": 1289841,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CreativeCore_v1.10.62_mc1.12.2.jar",
-            "MD5": "67092c51e1866003d896860c2f065615"
+            "size": 961299,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CreativeCore_v1.9.90_mc1.12.2.jar",
+            "MD5": "b3e9f023cab2c4d0b250c0df456636a2"
           }
         },
         {
-          "id": "com.blakebr0:cucumber:1.1.3@jar",
-          "name": "Cucumber Library",
-          "type": "ForgeMod",
+          "id": "generated.library:CustomMainMenu:MC1.12.2-2.0.9.1@jar",
+          "name": "CustomMainMenu",
+          "type": "Library",
           "artifact": {
-            "size": 126699,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Cucumber-1.12.2-1.1.3.jar",
-            "MD5": "0018d8de31b05dc44c80a25d73fde15b"
+            "size": 3055033,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "MD5": "9d4635f5e8799ced2978a71c907b6e25"
           }
         },
         {
-          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
-          "name": "Custom Main Menu",
-          "type": "ForgeMod",
+          "id": "generated.library:DoomlikeDungeons:1.13.2-MC1.12.2@jar",
+          "name": "DoomlikeDungeons",
+          "type": "Library",
           "artifact": {
-            "size": 90373,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
-            "MD5": "5e24fc8aa4d54ef7500ebc9055da01dc"
+            "size": 702996,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/DoomlikeDungeons-1.13.2-MC1.12.2.jar",
+            "MD5": "b762700ca12b78dccbbbd78ded271fa0"
           }
         },
         {
-          "id": "com.brandon3055:draconicevolution:1.12.2-2.3.27.353@jar",
-          "name": "Draconic Evolution",
-          "type": "ForgeMod",
+          "id": "generated.library:DynamicSurroundings:1.12.2-3.6.1.0@jar",
+          "name": "DynamicSurroundings",
+          "type": "Library",
           "artifact": {
-            "size": 5708541,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Draconic-Evolution-1.12.2-2.3.27.353-universal.jar",
-            "MD5": "812fd3a510f59293169849fa69565e6b"
+            "size": 15929762,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/DynamicSurroundings-1.12.2-3.6.1.0.jar",
+            "MD5": "1a0d50a34941865ff091a492e0612502"
           }
         },
         {
-          "id": "net.olafkeijsers:fastleafdecay:v14@jar",
-          "name": "FastLeafDecay",
-          "type": "ForgeMod",
+          "id": "generated.library:DynamicSurroundingsHuds:1.12.2-3.6.0.0@jar",
+          "name": "DynamicSurroundingsHuds",
+          "type": "Library",
           "artifact": {
-            "size": 5200,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/FastLeafDecay-v14.jar",
-            "MD5": "18096ffb7f58d94f8e5a7bf2ff160f0f"
+            "size": 96279,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar",
+            "MD5": "7fe98787cd2a520da6cfe384ba040b7d"
           }
         },
         {
-          "id": "amerifrance.guideapi:guideapi:1.12-2.1.8-63@jar",
-          "name": "Guide-API",
-          "type": "ForgeMod",
+          "id": "generated.library:DynamicTrees:1.12.2-0.9.7@jar",
+          "name": "DynamicTrees",
+          "type": "Library",
           "artifact": {
-            "size": 169528,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Guide-API-1.12-2.1.8-63.jar",
-            "MD5": "117d3d825059fceb0c1d04f8701beb00"
+            "size": 789332,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/DynamicTrees-1.12.2-0.9.7.jar",
+            "MD5": "ac512bffa6cdcc08e09aeec7348be0a8"
           }
         },
         {
-          "id": "ic2.core:ic2:2.8.170-ex112@jar",
-          "name": "IndustrialCraft 2",
-          "type": "ForgeMod",
+          "id": "generated.library:EnchantmentDescriptions:1.12.2-1.1.20@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "Library",
           "artifact": {
-            "size": 8356436,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
-            "MD5": "d4f952c94cacdd280abbb73f072b2424"
+            "size": 17072,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/EnchantmentDescriptions-1.12.2-1.1.20.jar",
+            "MD5": "0e5200aecbd4ecba622b49a8d0f6e2a7"
           }
         },
         {
-          "id": "gr8pefish.ironbackpacks:ironbackpacks:1.12.2-3.0.8-12@jar",
-          "name": "Iron Backpacks",
-          "type": "ForgeMod",
+          "id": "generated.library:EnhancedVisuals_v1.2.7_mc1.12.2:0.0.0@jar",
+          "name": "EnhancedVisuals_v1.2.7_mc1.12.2",
+          "type": "Library",
           "artifact": {
-            "size": 465363,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/IronBackpacks-1.12.2-3.0.8-12.jar",
-            "MD5": "9fd50b1827b711704c69789aa94ac2ca"
+            "size": 3774252,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/EnhancedVisuals_v1.2.7_mc1.12.2.jar",
+            "MD5": "42c52d44f251ff2ad2d792eb50646f77"
           }
         },
         {
-          "id": "cpw.mods:ironchest:1.12.2-7.0.72.847@jar",
-          "name": "Iron Chests",
-          "type": "ForgeMod",
+          "id": "generated.library:FamiliarFauna:1.12.2-1.0.11@jar",
+          "name": "FamiliarFauna",
+          "type": "Library",
           "artifact": {
-            "size": 956692,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ironchest-1.12.2-7.0.72.847.jar",
-            "MD5": "743179bc3a8f50751efbb019acc759a9"
+            "size": 381455,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/FamiliarFauna-1.12.2-1.0.11.jar",
+            "MD5": "a3bddaaba80627ff68f7c634c4098941"
           }
         },
         {
-          "id": "mezz.jei:jei:4.16.1.302@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
+          "id": "generated.library:FancyBlockParticles:1.12.x-2.4.1@jar",
+          "name": "FancyBlockParticles",
+          "type": "Library",
           "artifact": {
-            "size": 653210,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/jei_1.12.2-4.16.1.302.jar",
-            "MD5": "2dc4b6046812e64c514ff4d18bc5cb03"
+            "size": 177413,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/FancyBlockParticles-1.12.x-2.4.1.jar",
+            "MD5": "8e73092250d933121d2856ce1efb6a32"
           }
         },
         {
-          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
+          "id": "generated.library:FoodExpansion1.3.3:1.12.2@jar",
+          "name": "FoodExpansion1.3.3",
+          "type": "Library",
           "artifact": {
-            "size": 6990968,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/journeymap-1.12.2-5.7.1.jar",
-            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+            "size": 81460,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/FoodExpansion1.3.3-1.12.2.jar",
+            "MD5": "5005500083ca771356203e93236fa66b"
           }
         },
         {
-          "id": "mal.lootbags:lootbags:2.5.8.5@jar",
-          "name": "Loot Bags",
-          "type": "ForgeMod",
+          "id": "generated.library:ForgeEndertech:1.12.2-4.5.2.0-build.0459@jar",
+          "name": "ForgeEndertech",
+          "type": "Library",
+          "artifact": {
+            "size": 938833,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ForgeEndertech-1.12.2-4.5.2.0-build.0459.jar",
+            "MD5": "8ceecd32ea33ef6bf370057c123e797e"
+          }
+        },
+        {
+          "id": "generated.library:Forgelin:1.8.4@jar",
+          "name": "Forgelin",
+          "type": "Library",
+          "artifact": {
+            "size": 6278399,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Forgelin-1.8.4.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d"
+          }
+        },
+        {
+          "id": "generated.library:ForgottenItems MC1.12.2 v1.2.1:0.0.0@jar",
+          "name": "ForgottenItems MC1.12.2 v1.2.1",
+          "type": "Library",
+          "artifact": {
+            "size": 617200,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ForgottenItems%20MC1.12.2%20v1.2.1.jar",
+            "MD5": "8a765ab92c47cc5559ff551debccb937"
+          }
+        },
+        {
+          "id": "generated.library:FriendlyEndermite_v1.0.1_mc1.12.2:0.0.0@jar",
+          "name": "FriendlyEndermite_v1.0.1_mc1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 2608,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/FriendlyEndermite_v1.0.1_mc1.12.2.jar",
+            "MD5": "6a2ad81c673ee17c7f2e8066917684eb"
+          }
+        },
+        {
+          "id": "generated.library:GlobalGameRules:1.12.2-2.2.7@jar",
+          "name": "GlobalGameRules",
+          "type": "Library",
+          "artifact": {
+            "size": 24050,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/GlobalGameRules-1.12.2-2.2.7.jar",
+            "MD5": "6a3ee9f9d8523d7ea2a2b78e05644ea8"
+          }
+        },
+        {
+          "id": "generated.library:ISeeDragons:0.12@jar",
+          "name": "ISeeDragons",
+          "type": "Library",
+          "artifact": {
+            "size": 24985,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ISeeDragons-0.12.jar",
+            "MD5": "e6eda90414c7884971c2dbb442ec2739"
+          }
+        },
+        {
+          "id": "generated.library:InfernalMobs:1.12.2@jar",
+          "name": "InfernalMobs",
+          "type": "Library",
+          "artifact": {
+            "size": 183579,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/InfernalMobs-1.12.2.jar",
+            "MD5": "490f29a18ad3445f4dbd0616e9c06b0d"
+          }
+        },
+        {
+          "id": "generated.library:InventoryTweaks:1.64+dev.151@jar",
+          "name": "InventoryTweaks",
+          "type": "Library",
+          "artifact": {
+            "size": 286144,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/InventoryTweaks-1.64+dev.151.jar",
+            "MD5": "eff5b44c2e1019a262eafd0aaad4c4a9"
+          }
+        },
+        {
+          "id": "generated.library:ItemPhysic_Full_1.4.28_mc1.12.2:0.0.0@jar",
+          "name": "ItemPhysic_Full_1.4.28_mc1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 48564,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ItemPhysic_Full_1.4.28_mc1.12.2.jar",
+            "MD5": "7a20dbe6d91af6b28d4df7aacc5e4208"
+          }
+        },
+        {
+          "id": "generated.library:IvToolkit:1.3.3-1.12@jar",
+          "name": "IvToolkit",
+          "type": "Library",
+          "artifact": {
+            "size": 455763,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/IvToolkit-1.3.3-1.12.jar",
+            "MD5": "f1a23cb6eaa682240c0ecdab65e7857f"
+          }
+        },
+        {
+          "id": "generated.library:Level Up! 2:1.1.23-1.12@jar",
+          "name": "Level Up! 2",
+          "type": "Library",
+          "artifact": {
+            "size": 187346,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Level%20Up!%202-1.1.23-1.12.jar",
+            "MD5": "82332952e6ac6c770d4976586cb09b12"
+          }
+        },
+        {
+          "id": "generated.library:LoadingScreens:1.12.2-0.3.1@jar",
+          "name": "LoadingScreens",
+          "type": "Library",
+          "artifact": {
+            "size": 42647,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/LoadingScreens-1.12.2-0.3.1.jar",
+            "MD5": "d927f95a05529a05ab30acb339e72b20"
+          }
+        },
+        {
+          "id": "generated.library:LootBags:1.12.2-2.5.8.5@jar",
+          "name": "LootBags",
+          "type": "Library",
           "artifact": {
             "size": 279242,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/LootBags-1.12.2-2.5.8.5.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/LootBags-1.12.2-2.5.8.5.jar",
             "MD5": "251da8ab30737ef321e2ee2c50a3782e"
           }
         },
         {
-          "id": "slimeknights.mantle:mantle:1.3.3.55@jar",
+          "id": "generated.library:MainMenuScale:1.3.2@jar",
+          "name": "MainMenuScale",
+          "type": "Library",
+          "artifact": {
+            "size": 4174,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/MainMenuScale-1.3.2.jar",
+            "MD5": "851ffaf71aad9d7977be26dce6d2f595"
+          }
+        },
+        {
+          "id": "generated.library:Mantle:1.12-1.3.3.55@jar",
           "name": "Mantle",
-          "type": "ForgeMod",
+          "type": "Library",
           "artifact": {
             "size": 843486,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Mantle-1.12-1.3.3.55.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Mantle-1.12-1.3.3.55.jar",
             "MD5": "1026f5f8d3c4997831decd9023ca65a6"
           }
         },
         {
-          "id": "com.blakebr0:mysticalagradditions:1.3.2@jar",
-          "name": "Mystical Agradditions",
-          "type": "ForgeMod",
+          "id": "generated.library:MouseTweaks:2.10-mc1.12.2@jar",
+          "name": "MouseTweaks",
+          "type": "Library",
           "artifact": {
-            "size": 134055,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/MysticalAgradditions-1.12.2-1.3.2.jar",
-            "MD5": "ead0f02e214ab12b4f7b86c79fc23ffa"
+            "size": 75170,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/MouseTweaks-2.10-mc1.12.2.jar",
+            "MD5": "e4dcbf47c3f99a780681e3a3a9fcf9e9"
           }
         },
         {
-          "id": "com.blakebr0:mysticalagriculture:1.7.3@jar",
-          "name": "Mystical Agriculture",
-          "type": "ForgeMod",
+          "id": "generated.library:MultiMine:1.12.2@jar",
+          "name": "MultiMine",
+          "type": "Library",
           "artifact": {
-            "size": 1536124,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/MysticalAgriculture-1.12.2-1.7.5.jar",
-            "MD5": "b7b81747d20baf1c5547ee302bad1420"
+            "size": 64791,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/MultiMine-1.12.2.jar",
+            "MD5": "35dac79c1861d7689fb36af0d81236d1"
           }
         },
         {
-          "id": "vazkii.neat:neat:1.4-17@jar",
-          "name": "Neat",
-          "type": "ForgeMod",
+          "id": "generated.library:Neat 1.4:17@jar",
+          "name": "Neat 1.4",
+          "type": "Library",
           "artifact": {
             "size": 18527,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Neat+1.4-17.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Neat%201.4-17.jar",
             "MD5": "c371deab2490ecd6a2689eed09302d23"
           }
         },
         {
-          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-          "name": "OptiFine 1.12.2_HD_U_G5",
-          "type": "ForgeMod",
+          "id": "generated.library:OptiFine_1.12.2_HD_U_G5:0.0.0@jar",
+          "name": "OptiFine_1.12.2_HD_U_G5",
+          "type": "Library",
           "artifact": {
             "size": 2669107,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/OptiFine_1.12.2_HD_U_G5.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/OptiFine_1.12.2_HD_U_G5.jar",
             "MD5": "54e561e441192cf009803ae95873c5d0"
           }
         },
         {
-          "id": "com.pam:harvestcraft:1.12.2zg@jar",
-          "name": "Pam's HarvestCraft",
-          "type": "ForgeMod",
+          "id": "generated.library:OreLib:1.12.2-3.6.0.1@jar",
+          "name": "OreLib",
+          "type": "Library",
           "artifact": {
-            "size": 4912890,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Pam's+HarvestCraft+1.12.2zg.jar",
-            "MD5": "e8e1ac67accdeea50116e1e92e592397"
+            "size": 341728,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/OreLib-1.12.2-3.6.0.1.jar",
+            "MD5": "00cce3b240365458adcad3e77782358a"
           }
         },
         {
-          "id": "cofh.redstoneflux:redstoneflux:2.1.1.1@jar",
-          "name": "Redstone Flux",
-          "type": "ForgeMod",
+          "id": "generated.library:PotionCore:1.9_for_1.12.2@jar",
+          "name": "PotionCore",
+          "type": "Library",
           "artifact": {
-            "size": 31802,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/RedstoneFlux-1.12-2.1.1.1-universal.jar",
-            "MD5": "93b1715f05be1878da93fca36dd37f2a"
+            "size": 145329,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/PotionCore-1.9_for_1.12.2.jar",
+            "MD5": "5dea390b2e61967b35d23f73adf73bad"
           }
         },
         {
-          "id": "greymerk.roguelike:roguelike:1.12.2-1.8.0@jar",
-          "name": "Roguelike Dungeons",
-          "type": "ForgeMod",
+          "id": "generated.library:PotionFingers:r1.0-8@jar",
+          "name": "PotionFingers",
+          "type": "Library",
+          "artifact": {
+            "size": 11319,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/PotionFingers-r1.0-8.jar",
+            "MD5": "f563f7472d59772c9916901b638456ce"
+          }
+        },
+        {
+          "id": "generated.library:QualityTools:1.0.7_for_1.12.2@jar",
+          "name": "QualityTools",
+          "type": "Library",
+          "artifact": {
+            "size": 83553,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/QualityTools-1.0.7_for_1.12.2.jar",
+            "MD5": "a5db162ce5ad16451d8d961bea8a24f0"
+          }
+        },
+        {
+          "id": "generated.library:RLTweaker:1.12.2-0.3.0@jar",
+          "name": "RLTweaker",
+          "type": "Library",
+          "artifact": {
+            "size": 109401,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/RLTweaker-1.12.2-0.3.0.jar",
+            "MD5": "4192885a022351555fc6aeaf0e387426"
+          }
+        },
+        {
+          "id": "generated.library:RealisticTorches:1.12.2-2.1.1@jar",
+          "name": "RealisticTorches",
+          "type": "Library",
+          "artifact": {
+            "size": 74187,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/RealisticTorches-1.12.2-2.1.1.jar",
+            "MD5": "402db0ac1fabb10a977d918dd41067fb"
+          }
+        },
+        {
+          "id": "generated.library:RebornCore:1.12.2-3.19.3.524-universal@jar",
+          "name": "RebornCore",
+          "type": "Library",
+          "artifact": {
+            "size": 2429628,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/RebornCore-1.12.2-3.19.3.524-universal.jar",
+            "MD5": "31f8d7661e08814f9197dcbf2840e2da"
+          }
+        },
+        {
+          "id": "generated.library:RecurrentComplex:1.4.8.2@jar",
+          "name": "RecurrentComplex",
+          "type": "Library",
+          "artifact": {
+            "size": 7076645,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/RecurrentComplex-1.4.8.2.jar",
+            "MD5": "821b38ba97b03eb79d64db797db67dac"
+          }
+        },
+        {
+          "id": "generated.library:Reskillable:1.12.2-1.13.0@jar",
+          "name": "Reskillable",
+          "type": "Library",
+          "artifact": {
+            "size": 338650,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Reskillable-1.12.2-1.13.0.jar",
+            "MD5": "38e66a09a8f5c90278af66fda95d2764"
+          }
+        },
+        {
+          "id": "generated.library:ResourceLoader:MC1.12.1-1.5.3@jar",
+          "name": "ResourceLoader",
+          "type": "Library",
+          "artifact": {
+            "size": 16612,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "generated.library:RoguelikeDungeons:1.12.2-1.8.0@jar",
+          "name": "RoguelikeDungeons",
+          "type": "Library",
           "artifact": {
             "size": 701215,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/RoguelikeDungeons-1.12.2-1.8.0.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/RoguelikeDungeons-1.12.2-1.8.0.jar",
             "MD5": "e6f7604a6ec95d0af6eee2f2f3ecef85"
           }
         },
         {
-          "id": "net.silentchaos512:sgextraparts:1.4.5@jar",
-          "name": "Silent's Gems: Extra Parts",
-          "type": "ForgeMod",
+          "id": "generated.library:Ruins:1.12.2@jar",
+          "name": "Ruins",
+          "type": "Library",
           "artifact": {
-            "size": 105628,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SGExtraParts-1.12.2-1.4.5-43.jar",
-            "MD5": "c09578e1ccaa7e53dc6aa31477fba170"
+            "size": 244703,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Ruins-1.12.2.jar",
+            "MD5": "e37b1cf7390ce37975c2f8754ac7cd63"
           }
         },
         {
-          "id": "net.silentchaos512.lib:SilentLib:3.0.13@jar",
-          "name": "Silent Lib",
-          "type": "ForgeMod",
+          "id": "generated.library:ScalingHealth:1.12.2-1.3.42+147@jar",
+          "name": "ScalingHealth",
+          "type": "Library",
           "artifact": {
-            "size": 588846,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentLib-1.12.2-3.0.13+167.jar",
-            "MD5": "226e4977e83fec1fd88963ce7a98fb16"
+            "size": 369985,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ScalingHealth-1.12.2-1.3.42+147.jar",
+            "MD5": "e9455929b793300c4987ab368d38d170"
           }
         },
         {
-          "id": "net.silentchaos512.gems:silentgems:2.8.18@jar",
-          "name": "Silent's Gems",
-          "type": "ForgeMod",
+          "id": "generated.library:SereneSeasons:1.12.2-1.2.18-universal@jar",
+          "name": "SereneSeasons",
+          "type": "Library",
           "artifact": {
-            "size": 3485752,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/SilentsGems-1.12.2-2.8.22+327.jar",
-            "MD5": "f0d495169719288a9c0ba236275f049c"
+            "size": 185187,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SereneSeasons-1.12.2-1.2.18-universal.jar",
+            "MD5": "ef89fab62d1914ea0e25d2c31b453695"
           }
         },
         {
-          "id": "com.jaquadro.minecraft:storagedrawers:1.12.2-5.4.2@jar",
-          "name": "Storage Drawers",
-          "type": "ForgeMod",
+          "id": "generated.library:SilentLib:1.12.2-3.0.14+168@jar",
+          "name": "SilentLib",
+          "type": "Library",
           "artifact": {
-            "size": 605947,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/StorageDrawers-1.12.2-5.4.2.jar",
-            "MD5": "0f658c7cba3e6793abbcb934b4810902"
+            "size": 369314,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SilentLib-1.12.2-3.0.14+168.jar",
+            "MD5": "1e66a91d88c26de3702af1c4f754a5e5"
           }
         },
         {
-          "id": "slimeknights.tconstruct:tconstruct:1.12.2-2.13.0.183@jar",
-          "name": "Tinkers' Construct",
-          "type": "ForgeMod",
+          "id": "generated.library:SilentsGems:1.12.2-2.8.21+325@jar",
+          "name": "SilentsGems",
+          "type": "Library",
+          "artifact": {
+            "size": 3485119,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SilentsGems-1.12.2-2.8.21+325.jar",
+            "MD5": "d4d17828a0989947b8d12c25da246dc7"
+          }
+        },
+        {
+          "id": "generated.library:SnowRealMagic:0.3.3@jar",
+          "name": "SnowRealMagic",
+          "type": "Library",
+          "artifact": {
+            "size": 27124,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SnowRealMagic-0.3.3.jar",
+            "MD5": "77fd064fbcc9a8bd1fbe2779c6c0a20d"
+          }
+        },
+        {
+          "id": "generated.library:So Many Enchantments V0.4.4:0.0.0@jar",
+          "name": "So Many Enchantments V0.4.4",
+          "type": "Library",
+          "artifact": {
+            "size": 448545,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/So%20Many%20Enchantments%20V0.4.4.jar",
+            "MD5": "a0d76289c5d15f7a1ce4fd77a81de50b"
+          }
+        },
+        {
+          "id": "generated.library:SoundFilters:0.12_for_1.12@jar",
+          "name": "SoundFilters",
+          "type": "Library",
+          "artifact": {
+            "size": 43161,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SoundFilters-0.12_for_1.12.jar",
+            "MD5": "afbdb448f432b5f7fff4967a1163d858"
+          }
+        },
+        {
+          "id": "generated.library:SpartanShields:1.12.2-1.5.4@jar",
+          "name": "SpartanShields",
+          "type": "Library",
+          "artifact": {
+            "size": 430944,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SpartanShields-1.12.2-1.5.4.jar",
+            "MD5": "e4c572bf9421c1e80b01c579f4a04594"
+          }
+        },
+        {
+          "id": "generated.library:SpartanWeaponry:1.12.2-beta-1.3.8@jar",
+          "name": "SpartanWeaponry",
+          "type": "Library",
+          "artifact": {
+            "size": 937558,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SpartanWeaponry-1.12.2-beta-1.3.8.jar",
+            "MD5": "78de877cb3c92d3450a6bf50cfd03835"
+          }
+        },
+        {
+          "id": "generated.library:SpawnerControl:1.6.3b@jar",
+          "name": "SpawnerControl",
+          "type": "Library",
+          "artifact": {
+            "size": 49537,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/SpawnerControl-1.6.3b.jar",
+            "MD5": "1809929f13ea6d16cbf03036fd1e4f7e"
+          }
+        },
+        {
+          "id": "generated.library:TConstruct:1.12.2-2.13.0.183@jar",
+          "name": "TConstruct",
+          "type": "Library",
           "artifact": {
             "size": 4023372,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/TConstruct-1.12.2-2.13.0.183.jar",
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/TConstruct-1.12.2-2.13.0.183.jar",
             "MD5": "710d64342d41042b7d6ced891448e727"
           }
         },
         {
-          "id": "cofh.thermalfoundation:thermalfoundation:2.6.7.1@jar",
-          "name": "Thermal Foundation",
-          "type": "ForgeMod",
+          "id": "generated.library:TickProfiler:1.12-0.0.10@jar",
+          "name": "TickProfiler",
+          "type": "Library",
           "artifact": {
-            "size": 2219736,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
-            "MD5": "6eca041bbf28949b60ecf1179d561156"
+            "size": 484034,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/TickProfiler-1.12-0.0.10.jar",
+            "MD5": "6a275afe89b5a5c900caf88b277425cc"
           }
         },
         {
-          "id": "slimeknights.toolleveling:tinkertoolleveling:1.12.2-1.1.0@jar",
-          "name": "Tinkers Tool Leveling",
-          "type": "ForgeMod",
+          "id": "generated.library:ToolBelt:1.12.2-1.9.12@jar",
+          "name": "ToolBelt",
+          "type": "Library",
           "artifact": {
-            "size": 95850,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/TinkerToolLeveling-1.12.2-1.1.0.jar",
-            "MD5": "f9253fe86c6649afbf49d221c71ba19a"
+            "size": 155009,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ToolBelt-1.12.2-1.9.12.jar",
+            "MD5": "045cb4cb4a3c9daf59bf4658e293cec8"
           }
         },
         {
-          "id": "twilightforest:twilightforest:3.11.1021@jar",
-          "name": "The Twilight Forest",
-          "type": "ForgeMod",
+          "id": "generated.library:ToughAsNails:1.12.2-3.1.0.141-universal@jar",
+          "name": "ToughAsNails",
+          "type": "Library",
           "artifact": {
-            "size": 28721862,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/twilightforest-1.12.2-3.11.1021-universal.jar",
-            "MD5": "0933760943721154f3208782306f04d6"
+            "size": 357504,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/ToughAsNails-1.12.2-3.1.0.141-universal.jar",
+            "MD5": "39634afb9279ab287b9d6772ee863d7c"
+          }
+        },
+        {
+          "id": "generated.library:Traverse:1.12.2-1.6.0-69@jar",
+          "name": "Traverse",
+          "type": "Library",
+          "artifact": {
+            "size": 270133,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Traverse-1.12.2-1.6.0-69.jar",
+            "MD5": "3cc748cd333cab2e5f8132a89cd40b48"
+          }
+        },
+        {
+          "id": "generated.library:Trinkets and Baubles:1.12.2-0.29.2@jar",
+          "name": "Trinkets and Baubles",
+          "type": "Library",
+          "artifact": {
+            "size": 610961,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Trinkets%20and%20Baubles-1.12.2-0.29.2.jar",
+            "MD5": "8c2f119a7584155d3a44acc105e71188"
+          }
+        },
+        {
+          "id": "generated.library:TschippLib MC1.12.2 v1.1.3:0.0.0@jar",
+          "name": "TschippLib MC1.12.2 v1.1.3",
+          "type": "Library",
+          "artifact": {
+            "size": 47850,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/TschippLib%20MC1.12.2%20v1.1.3.jar",
+            "MD5": "bad304eee3e23269dd94a26785e7d037"
+          }
+        },
+        {
+          "id": "generated.library:VariedCommodities_1.12.2(21nov19):0.0.0@jar",
+          "name": "VariedCommodities_1.12.2(21nov19)",
+          "type": "Library",
+          "artifact": {
+            "size": 1567926,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/VariedCommodities_1.12.2(21nov19).jar",
+            "MD5": "c4abbbf3e8705c5be1769f7617041803"
+          }
+        },
+        {
+          "id": "generated.library:Waystones_1.12.2:4.1.0@jar",
+          "name": "Waystones_1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 178994,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/Waystones_1.12.2-4.1.0.jar",
+            "MD5": "5159122949ffb79b80a341135673e8f8"
+          }
+        },
+        {
+          "id": "generated.library:WearableBackpacks:1.12.2-3.1.4@jar",
+          "name": "WearableBackpacks",
+          "type": "Library",
+          "artifact": {
+            "size": 413940,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/WearableBackpacks-1.12.2-3.1.4.jar",
+            "MD5": "ebda4fa9dd1afbc445714bb2e8a8a083"
+          }
+        },
+        {
+          "id": "generated.library:alcatrazcore:1.0.4@jar",
+          "name": "alcatrazcore",
+          "type": "Library",
+          "artifact": {
+            "size": 109321,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/alcatrazcore-1.0.4.jar",
+            "MD5": "e64b3abdcfadc9e4f895487e2fa7d822"
+          }
+        },
+        {
+          "id": "generated.library:antiqueatlas:1.12.2-4.6.3@jar",
+          "name": "antiqueatlas",
+          "type": "Library",
+          "artifact": {
+            "size": 1239580,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+          }
+        },
+        {
+          "id": "generated.library:anvilpatch:1.0.0@jar",
+          "name": "anvilpatch",
+          "type": "Library",
+          "artifact": {
+            "size": 17974,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/anvilpatch-1.0.0.jar",
+            "MD5": "4c62a3f00164605e7e90c60e5c9f0d12"
+          }
+        },
+        {
+          "id": "generated.library:armorunder:mc1.12.2-1.0.0@jar",
+          "name": "armorunder",
+          "type": "Library",
+          "artifact": {
+            "size": 163703,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/armorunder-mc1.12.2-1.0.0.jar",
+            "MD5": "84308daae446fa09128c46948ec6352b"
+          }
+        },
+        {
+          "id": "generated.library:better_survival:1.4.1@jar",
+          "name": "better_survival",
+          "type": "Library",
+          "artifact": {
+            "size": 1487187,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/better_survival-1.4.1.jar",
+            "MD5": "d03b1a7f1d6deac3bfd95779d1ce40af"
+          }
+        },
+        {
+          "id": "generated.library:campfire:1.12-v1.2@jar",
+          "name": "campfire",
+          "type": "Library",
+          "artifact": {
+            "size": 32235,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/campfire-1.12-v1.2.jar",
+            "MD5": "c4fded87dad07465f5c3c32fabc6fc84"
+          }
+        },
+        {
+          "id": "generated.library:carrotslib:mc1.12.2-1.0.0b1@jar",
+          "name": "carrotslib",
+          "type": "Library",
+          "artifact": {
+            "size": 290843,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/carrotslib-mc1.12.2-1.0.0b1.jar",
+            "MD5": "07b8d3b7fb817f8e94426e0f4f105dc1"
+          }
+        },
+        {
+          "id": "generated.library:comforts:1.12.2-1.4.1.3@jar",
+          "name": "comforts",
+          "type": "Library",
+          "artifact": {
+            "size": 167301,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/comforts-1.12.2-1.4.1.3.jar",
+            "MD5": "47b49d007c3e337c294822cb34e59c4c"
+          }
+        },
+        {
+          "id": "generated.library:corpsecomplex:1.12.2-1.0.10.1@jar",
+          "name": "corpsecomplex",
+          "type": "Library",
+          "artifact": {
+            "size": 124555,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/corpsecomplex-1.12.2-1.0.10.1.jar",
+            "MD5": "c897a6444d0cb67cd6089778e979512d"
+          }
+        },
+        {
+          "id": "generated.library:craftablechainmail:1.0@jar",
+          "name": "craftablechainmail",
+          "type": "Library",
+          "artifact": {
+            "size": 12600,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/craftablechainmail-1.0.jar",
+            "MD5": "1d752538fc6e8d6d69e1c9ca7d46aa97"
+          }
+        },
+        {
+          "id": "generated.library:defiledlands:1.12.2-1.4.3@jar",
+          "name": "defiledlands",
+          "type": "Library",
+          "artifact": {
+            "size": 780421,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/defiledlands-1.12.2-1.4.3.jar",
+            "MD5": "354e5d8333c692868199e72cc761e8d5"
+          }
+        },
+        {
+          "id": "generated.library:disenchanter:[1.12]1.6@jar",
+          "name": "disenchanter",
+          "type": "Library",
+          "artifact": {
+            "size": 111421,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/disenchanter-[1.12]1.6.jar",
+            "MD5": "6988f6bbe9fa9b4332b6004eace7f77f"
+          }
+        },
+        {
+          "id": "generated.library:dttraverse:1.5@jar",
+          "name": "dttraverse",
+          "type": "Library",
+          "artifact": {
+            "size": 70431,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/dttraverse-1.5.jar",
+            "MD5": "7755a54d4c682e43a1f5171a94e6c0ab"
+          }
+        },
+        {
+          "id": "generated.library:firstaid:1.6.14@jar",
+          "name": "firstaid",
+          "type": "Library",
+          "artifact": {
+            "size": 462722,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/firstaid-1.6.14.jar",
+            "MD5": "66dc8e9c75b63c86f18d248bf101178b"
+          }
+        },
+        {
+          "id": "generated.library:foamfix:0.10.10-1.12.2@jar",
+          "name": "foamfix",
+          "type": "Library",
+          "artifact": {
+            "size": 201683,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/foamfix-0.10.10-1.12.2.jar",
+            "MD5": "bba94f1ee252fcfbd2d52779f5c2f2b1"
+          }
+        },
+        {
+          "id": "generated.library:grapplemod:v11.1-1.12.2@jar",
+          "name": "grapplemod",
+          "type": "Library",
+          "artifact": {
+            "size": 157747,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/grapplemod-v11.1-1.12.2.jar",
+            "MD5": "37db274d65c69addcb56a0ce47df94c6"
+          }
+        },
+        {
+          "id": "generated.library:iceandfire:1.7.1-1.12.2@jar",
+          "name": "iceandfire",
+          "type": "Library",
+          "artifact": {
+            "size": 16086478,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/iceandfire-1.7.1-1.12.2.jar",
+            "MD5": "d2cbff92ee079e2b1f3550a8343499fa"
+          }
+        },
+        {
+          "id": "generated.library:itlt:1.12.2-1.0.2@jar",
+          "name": "itlt",
+          "type": "Library",
+          "artifact": {
+            "size": 15618,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/itlt-1.12.2-1.0.2.jar",
+            "MD5": "6cd3d7c36425c878059a58bc0a5fc37d"
+          }
+        },
+        {
+          "id": "generated.library:jei_1.12.2:4.15.0.291@jar",
+          "name": "jei_1.12.2",
+          "type": "Library",
+          "artifact": {
+            "size": 651473,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/jei_1.12.2-4.15.0.291.jar",
+            "MD5": "cfdbfecefb1bdc5a3fbbcecbfecb0545"
+          }
+        },
+        {
+          "id": "generated.library:journeymap:1.12.2-5.7.1@jar",
+          "name": "journeymap",
+          "type": "Library",
+          "artifact": {
+            "size": 6990968,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          }
+        },
+        {
+          "id": "generated.library:llibrary:1.7.19-1.12.2@jar",
+          "name": "llibrary",
+          "type": "Library",
+          "artifact": {
+            "size": 884837,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/llibrary-1.7.19-1.12.2.jar",
+            "MD5": "32d8339a7a77e02e2e3583c38cfa96a6"
+          }
+        },
+        {
+          "id": "generated.library:lostcities:1.12-2.0.22@jar",
+          "name": "lostcities",
+          "type": "Library",
+          "artifact": {
+            "size": 789743,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/lostcities-1.12-2.0.22.jar",
+            "MD5": "623dc6900248b3832dc35c3bb9a8552d"
+          }
+        },
+        {
+          "id": "generated.library:lostsouls:1.12-1.1.4@jar",
+          "name": "lostsouls",
+          "type": "Library",
+          "artifact": {
+            "size": 30677,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/lostsouls-1.12-1.1.4.jar",
+            "MD5": "6302e60ef37ff5a517cd5434ef6f039a"
+          }
+        },
+        {
+          "id": "generated.library:lycanitesmobs:1.12.2-2.0.7.1@jar",
+          "name": "lycanitesmobs",
+          "type": "Library",
+          "artifact": {
+            "size": 80300372,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/lycanitesmobs-1.12.2-2.0.7.1.jar",
+            "MD5": "8e95e79525cc95557562c271a6f405c0"
+          }
+        },
+        {
+          "id": "generated.library:mobends:0.24_for_MC-1.12@jar",
+          "name": "mobends",
+          "type": "Library",
+          "artifact": {
+            "size": 669015,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/mobends-0.24_for_MC-1.12.jar",
+            "MD5": "928e8f3bfafe04209c5272e0315af43c"
+          }
+        },
+        {
+          "id": "generated.library:notreepunching:2.0.20@jar",
+          "name": "notreepunching",
+          "type": "Library",
+          "artifact": {
+            "size": 2121429,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/notreepunching-2.0.20.jar",
+            "MD5": "9d2ea2e83895979759892be16d45cf16"
+          }
+        },
+        {
+          "id": "generated.library:phosphor:1.12.2-0.2.6+build50-universal@jar",
+          "name": "phosphor",
+          "type": "Library",
+          "artifact": {
+            "size": 1082311,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/phosphor-1.12.2-0.2.6+build50-universal.jar",
+            "MD5": "9892af4ac4f8ca4222138a245592227c"
+          }
+        },
+        {
+          "id": "generated.library:roughTweaks0.2.4:1.12.2@jar",
+          "name": "roughTweaks0.2.4",
+          "type": "Library",
+          "artifact": {
+            "size": 25875,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/roughTweaks0.2.4-1.12.2.jar",
+            "MD5": "aff6886d28e29f17f60991c1f88d5758"
+          }
+        },
+        {
+          "id": "generated.library:sit:1.12.2-v1.3@jar",
+          "name": "sit",
+          "type": "Library",
+          "artifact": {
+            "size": 10110,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/sit-1.12.2-v1.3.jar",
+            "MD5": "9d2f1a96a6b80acfe779880c3d8ecf4f"
+          }
+        },
+        {
+          "id": "generated.library:spartanfire:0.05@jar",
+          "name": "spartanfire",
+          "type": "Library",
+          "artifact": {
+            "size": 506832,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/spartanfire-0.05.jar",
+            "MD5": "3377ab451924c96fed80eb34a6f46027"
+          }
+        },
+        {
+          "id": "generated.library:stg:1.12.2-1.2.3@jar",
+          "name": "stg",
+          "type": "Library",
+          "artifact": {
+            "size": 24024,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/stg-1.12.2-1.2.3.jar",
+            "MD5": "b836648006f1451c65d33f7132eec770"
+          }
+        },
+        {
+          "id": "generated.library:switchbow:1.5.7@jar",
+          "name": "switchbow",
+          "type": "Library",
+          "artifact": {
+            "size": 469871,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/switchbow-1.5.7.jar",
+            "MD5": "4f04241ace7dfa7717e07a1900ddcea6"
+          }
+        },
+        {
+          "id": "generated.library:tanspit:1.12.2-1.4@jar",
+          "name": "tanspit",
+          "type": "Library",
+          "artifact": {
+            "size": 30788,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/tanspit-1.12.2-1.4.jar",
+            "MD5": "fbbeae274e45ff8734e30a1ecea6372d"
+          }
+        },
+        {
+          "id": "generated.library:tnt_utilities:mc1.12-1.2.3@jar",
+          "name": "tnt_utilities",
+          "type": "Library",
+          "artifact": {
+            "size": 31034,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/tnt_utilities-mc1.12-1.2.3.jar",
+            "MD5": "0dfe40b9031c799d3cf80a50c97d190a"
+          }
+        },
+        {
+          "id": "generated.library:trumpetskeleton:1.12-1.0.2.1@jar",
+          "name": "trumpetskeleton",
+          "type": "Library",
+          "artifact": {
+            "size": 42657,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/trumpetskeleton-1.12-1.0.2.1.jar",
+            "MD5": "fa0c66a7f47e3a1bcb874a2992e21edf"
+          }
+        },
+        {
+          "id": "generated.library:tumbleweed:1.12-0.4.7@jar",
+          "name": "tumbleweed",
+          "type": "Library",
+          "artifact": {
+            "size": 87400,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/tumbleweed-1.12-0.4.7.jar",
+            "MD5": "8b0992e63584ff04d1fcff537473d048"
+          }
+        },
+        {
+          "id": "generated.library:wolfarmor:1.12.2-3.4.1.1-UNIVERSAL-signed@jar",
+          "name": "wolfarmor",
+          "type": "Library",
+          "artifact": {
+            "size": 1981257,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/wolfarmor-1.12.2-3.4.1.1-UNIVERSAL-signed.jar",
+            "MD5": "be6dfd614d16560f467aba1ee2341b75"
+          }
+        },
+        {
+          "id": "generated.library:xpfromharvest:1.12.2-1.1.0@jar",
+          "name": "xpfromharvest",
+          "type": "Library",
+          "artifact": {
+            "size": 8945,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/xpfromharvest-1.12.2-1.1.0.jar",
+            "MD5": "8ef313675e9f727e0f35cd68d5af3432"
+          }
+        },
+        {
+          "id": "generated.library:xptome:1.12.2-v1.1.4@jar",
+          "name": "xptome",
+          "type": "Library",
+          "artifact": {
+            "size": 11877,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianLauncher/libraries/xptome-1.12.2-v1.1.4.jar",
+            "MD5": "7ae1045fcf7207f470ce1517bff78b25"
           }
         }
       ]
