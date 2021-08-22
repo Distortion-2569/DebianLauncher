@@ -2,23 +2,25 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "875402570502377512",
+    "smallImageText": "V1",
+    "smallImageKey": "debian_81614_1_
+
+"
   },
   "servers": [
     {
-      "id": "DebianServeur-1.12.2",
-      "name": "Exploratia",
-      "description": "Exploratia",
+      "id": "Debian Survival",
+      "name": "Debian Survival",
+      "description": "Debian Survival",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "node-1.aryk.fr:25169",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "875402570502377512",
+        "largeImageText": "Debian Survival",
+        "largeImageKey": "debian"
       },
       "mainServer": false,
       "autoconnect": false,
