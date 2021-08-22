@@ -386,16 +386,6 @@
           }
         },
         {
-          "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
-          "name": "Chisel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4755282,
-            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
-            "MD5": "54afc298f94e708f0e1cdf399200b2cb"
-          }
-        },
-        {
           "id": "mod.chiselsandbits.core:chiselsandbits:14.33@jar",
           "name": "Chisels & Bits",
           "type": "ForgeMod",
@@ -443,6 +433,16 @@
             "size": 505987,
             "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
             "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
+          }
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1289841,
+            "url": "https://github.com/Distortion-2569/DebianLauncher/raw/main/servers/DebianServeur-1.12.2/forgemods/required/CreativeCore_v1.10.62_mc1.12.2.jar",
+            "MD5": "67092c51e1866003d896860c2f065615"
           }
         },
         {
